@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             editText.set((EditText) findViewById(R.id.inputbox));
            String Input = editText.get().getText().toString();
 
-//            if(url.contains(editText.getText().toString())) {
+//            if(url.contains(editText.get().getText().toString())) {
 //                Toast.makeText(MainActivity.this,"Item already in list", Toast.LENGTH_LONG).show();
 //            }
 //            else{
