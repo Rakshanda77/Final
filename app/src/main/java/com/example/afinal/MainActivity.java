@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(MainActivity.this,"Item already in list", Toast.LENGTH_LONG).show();
 //            }
 //            else{
+
+
                 url.add(Input);
 
 
