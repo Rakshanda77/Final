@@ -51,8 +51,8 @@ public class Titles extends AppCompatActivity {
 
                     for (int i = 0; i < jsonArray.length(); i++) {
                         JSONObject item = jsonArray.getJSONObject(i);
-                        String x =item.getJSONObject("data").getString("title");
-                        headings.add(x);
+                        String y= item.getJSONObject("data").getString("title");
+                        headings.add(y);
                     }
                     runOnUiThread(() -> {
                         if(headings.isEmpty ()){
